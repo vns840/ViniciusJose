@@ -1,45 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius Js</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #444444;
-            color: #ffffff;
-        }
-        h1{
-            font-size: 52px;
-        }
-        p{
-            font-size: 48px;
-        }
-        .container {
-         display: flex;
-         justify-content: center;
-        align-items: center;
-        }
-        .item{
-            text-align: center;
-            margin-top: 35vh;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="author" content="Vinicius José">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="img/V.J.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/stlye.css">
+  <title>Vinicius José | Dev Front-End</title>
 </head>
 <body>
-    <div class="container">
-        <div class="item">
-            <h1>Vinicius José</h1>
-            <P>Desenvolverdor Front-End</P>
-            <p>Contrução do Site em Andamento Aguarde..</p>
+  <header>
+     <a class="logo" href="">Logo</a>
+     <nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">inicio</a></li>
+          <li><a href="#">serviços</a></li>
+          <li><a href="#">projetos</a></li>
+          <li><a href="#">sobre min</a></li>
+          <li><a href="#">contato</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="container__flex">
+    <div class="container__box">
+      <img class="container__imagem" src="img/undraw_programming_re_kg9v.svg" alt="">
+    </div>
+    <div class="container__box-text">
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto.</p>
+    </div>
+  </section>
+  <main class="main">
+    <h2 class="title-center">Serviços</h2>
+    <div class="container__flex">
+      <div class="container__box-text">
+        <h2>Serviços Oferecidos</h2>
+        <ul class="jobs">
+          <li>Web Site</li>
+          <li>Landing Page</li>
+          <li>Email marketing</li>
+          <li>Blog - WordPress</li>
+          <li>Manutenção de Site</li>
+        </ul>
+      </div>
+      <div class="container__box">
+        <img class="container__imagem" src="img/undraw_design_notes_re_eklr.svg" alt="">
+      </div>
+    </div>
+  </main>
+  <sectio class="projetos">
+    <h2 class="title-center">Projetos</h2>
+    <div class="projetos__box">
+      <div class="container">
+        <div class="card">
+            <div class="face face1" id="acelera">
+                <div class="content">
+                    <h3>Acelera Pedidos</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                   <p>Acelera Pedidos , site de catalagos online aonde eu desenvolvir a home do site .</p>
+                   <a href="https://conheca.acelerapedidos.com.br/" target="_blank">Acesse Aqui</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="img/coding.png" alt="">
+                    <h3>Em Breve</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                   <p>..............</p>
+                   <a href="#">Acesse Aqui</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="img/graphic.png" alt="">
+                    <h3>Em Breve</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                   <p>..............</p>
+                   <a href="#">Acesse Aqui</a>
+                </div>
+            </div>
         </div>
     </div>
+    </div>
+  </sectio>
+  <section class="sobre">
+    <h2 class="title-center">Sobre Min</h2>
+  </section>
+  <section class="contato">
+    <h2 class="title-center">Contato</h2>
+    <div class="container__flex">
+      <div class="container__box">
+        <img class="container__imagem" src="img/undraw_envelope_re_f5j4(1).svg" alt="">
+      </div>
+      <div class="container__box-text">
+        <h2>Me encontre por aqui</h2>
+        <ul class="contato__icons">
+          <li class="icons__whats"><a target="_blank" href="https://api.whatsapp.com/send?phone=5511977861210">WhatsApp</a></li>
+          <li class="icons__tele"><a target="_blank" href="https://t.me/Viny_vale">Telegram</a></li>
+          <li class="icons__link"><a href="https://www.linkedin.com/in/vinicius-jos%C3%A9/" target="_blank">Linkedin</a></li>
+          <li class="icons__git"><a href="https://github.com/vns840" target="_blank">GitHub</a></li>
+          <li class="icons__codepen"><a href="https://codepen.io/vns840" target="_blank">codepen</a></li>
+          <li class="icons__youtube"><a href="https://www.youtube.com/channel/UCJ59NyxXLePM8aKKdTKQmWA" target="_blank">Youtube</a></li>
+          <li class="icons__email"><a href="mailto:viniciusjose.vale@gmail.com">Email</a></li>
+          <li class="icons__doc">Curriculo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="text-rodape">© 2022 Vinicius José</p>
+  </footer>
+  <script src="js/app.js"></script>
 </body>
 </html>
