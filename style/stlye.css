@@ -119,8 +119,14 @@ nav {
   padding: 35px 0;
 }
 
-.container__box-text h2 {
-  margin: 15px 0;
+.text__main {
+  font-size: 48px;
+  color: #27253b;
+}
+
+.container__box-text p {
+  font-size: 24px;
+  color: #27253b;
 }
 
 .jobs li {
@@ -156,6 +162,10 @@ nav {
 }
 
 /*CARD*/
+.projetos h2 {
+  color: #3f3d56;
+}
+
 .projetos__box {
   display: flex;
   justify-content: center;
@@ -266,10 +276,21 @@ nav {
 
 .sobre {
   background-color: #3f3d56;
+  padding: 10px;
+  color: #fff;
+}
+
+.sobremin__p {
+  margin-top: 10px;
+  width: 275px;
 }
 
 .contato {
   padding: 35px 0;
+}
+
+.contato h2 {
+  color: #3f3d56;
 }
 
 .contato__icons li {
