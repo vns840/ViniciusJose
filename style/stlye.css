@@ -438,3 +438,16 @@ nav {
     margin: 0;
   }
 }
+
+@media screen and (max-width: 546px) {
+  .contato__icons {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+  }
+}
