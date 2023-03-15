@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -146,8 +146,11 @@ nav {
   transform: translateY(0);
 }
 
-#acelera:hover {
-  background-image: url(../img/aceleraPedidos.png);
+#bjseg:hover {
+  background-image: url(../img/bjseg-home.png);
+}
+#sjseg:hover {
+  background-image: url(../img/sjseg-home.png);
 }
 
 .container .card .face.face1 .content {
